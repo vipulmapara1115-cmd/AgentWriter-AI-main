@@ -21,7 +21,6 @@ import uvicorn
 # ---------------------------------------------------------
 from backend import app as workflow
 
-
 # ---------------------------------------------------------
 # Paths
 # ---------------------------------------------------------
@@ -57,7 +56,6 @@ app = FastAPI(
     description="FastAPI frontend for the existing LangGraph workflow.",
     version="1.0.0",
 )
-
 
 # ---------------------------------------------------------
 # Static files
